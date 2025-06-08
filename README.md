@@ -5,21 +5,21 @@ This repository contains all the resources needed to compress and decompress fil
 
 Place all the .cpp files and .h files in a single directory.
 
-Run the following command to compile:
+## Run the following command to compile:
 
-1.
 g++ compressor.cpp decompressor.cpp frequencycounter.cpp huffman.cpp main.cpp nodes.cpp -o a
 
-2.
-./a.exe <mode> <input_file> <output_file>
 
-<mode>: Use c for compression, d for decompression.
 
-<input_file>: Path to the input text file.
+./a.exe `<mode>` `<input_file>` `<output_file>`
 
-<output_file>: Path where the output will be written.
+`<mode>`: Use c for compression, d for decompression.
 
-Examples
+`<input_file>`: Path to the input text file.
+
+`<output_file>`: Path where the output will be written.
+
+## Examples
 
 Compress input.txt into output.txt:
 
@@ -29,7 +29,7 @@ Decompress output.txt into output2.txt:
 
 ./a.exe d output.txt output2.txt
 
-Metrics
+## Metrics
 
 Compression Time: The program prints the time taken to compress the input.
 
@@ -37,7 +37,7 @@ Decompression Time: The program prints the time taken to decompress the input.
 
 Compression Ratio: The ratio of compressed size to original size.
 
-Sample
+## Sample
 
 Original: input.txt
 
